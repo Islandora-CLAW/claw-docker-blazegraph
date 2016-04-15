@@ -1,7 +1,7 @@
 FROM islandora-claw/tomcat
 MAINTAINER Nigel Banks <nigel.g.banks@gmail.com>
 
-LABEL "License"="GPLv3" \
+LABEL "License"="MIT" \
       "Version"="0.0.1"
 
 ARG BLAZEGRAPH_VERSION="1.5.1"
