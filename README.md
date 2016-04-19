@@ -1,9 +1,9 @@
 # Islandora CLAW Tomcat Docker Image
 
-[![Docker Stars](https://img.shields.io/docker/stars/islandora-claw/blazegraph.svg)](https://hub.docker.com/r/islandora-claw/blazegraph/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/islandora-claw/blazegraph.svg)](https://hub.docker.com/r/islandora-claw/blazegraph/)
-[![Image Size](https://img.shields.io/imagelayers/image-size/islandora-claw/blazegraph/latest.svg)](https://imagelayers.io/?images=islandora-claw/blazegraph:latest)
-[![Image Layers](https://img.shields.io/imagelayers/layers/islandora-claw/blazegraph/latest.svg)](https://imagelayers.io/?images=islandora-claw/blazegraph:latest)
+[![Docker Stars](https://img.shields.io/docker/stars/islandora/claw-blazegraph.svg)](https://hub.docker.com/r/islandora/claw-blazegraph/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/islandora/claw-blazegraph.svg)](https://hub.docker.com/r/islandora/claw-blazegraph/)
+[![Image Size](https://img.shields.io/imagelayers/image-size/islandora/claw-blazegraph/latest.svg)](https://imagelayers.io/?images=islandora/claw-blazegraph:latest)
+[![Image Layers](https://img.shields.io/imagelayers/layers/islandora/claw-blazegraph/latest.svg)](https://imagelayers.io/?images=islandora/claw-blazegraph:latest)
 
 ### Introduction
 
@@ -23,7 +23,7 @@ Based on the [Tomcat Docker Image](https://github.com/Islandora-CLAW/docker-tomc
 
 **Example:**
 ```bash
-docker build -t islandora-claw/blazegraph .
+docker build -t islandora/claw-blazegraph .
 ```
 
 ### Environment Variables
@@ -35,7 +35,7 @@ Please consult the
 
 **Example (foreground, port 8080, auto-remove):**
 ```bash
-docker run --rm -ti -p 8080:8080 -e "TOMCAT_ADMIN_PASSWORD=your_super_secure_password" islandora-claw/blazegraph
+docker run --rm -ti -p 8080:8080 -e "TOMCAT_ADMIN_PASSWORD=your_super_secure_password" islandora/claw-blazegraph
 ```
 
 ### Commands
